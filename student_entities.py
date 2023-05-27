@@ -33,7 +33,6 @@ def common_init(self):
     methods if you want.
     """
 
-
     # Initialize the distance table
     self.distance_table[self.node] = list(ORIGINAL_COSTS[self.node])
 
